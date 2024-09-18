@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "hospital-management"
+version = "0.1.0"
+description = ""
+authors = ["manthanpatel898 <134184638+manthanpatel898@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.3"
+flask-jwt-extended = "^4.6.0"
+pymongo = "^4.8.0"
+python-dotenv = "^1.0.1"
+passlib = "^1.7.4"
+flask-pymongo = "^2.3.0"
+bcrypt = "^3.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
